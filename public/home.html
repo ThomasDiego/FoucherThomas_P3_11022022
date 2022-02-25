@@ -6,10 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <header>
+        <nav class="flex w-100 x-center padding-tb-15">
+            <div class="nav__title"><img src="./images/logo/ohmyfood@2x.svg" width="200" alt="ohmyfood"></div>
+        </nav>
+    </header>
 
+    <section>
+        <div class="localisation flex w-100 x-center padding-tb-15">
+            <div class="localisation__icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="localisation__place">Paris, Belleville</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="page padding text-center">
+            <div class="page__title">
+                <h1>Réservez le menu qui vous convient</h1>
+            </div>
+            <div class="page__subtitle">
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+            </div>
+            <button>
+                Explorer nos restaurants
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="fonctionnement padding">
+            <h2>Fonctionnement</h2>
+            <div class="fonctionnement__list flex flex-column">
+                <div class="fonctionnement__item flex">
+                    <div class="fonctionnement__count">1</div>
+                    <div class="fonctionnement__content flex">
+                        <div class="fonctionnement__icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <div class="fonctionnement__text">Choisissez un restaurant</div>
+                    </div>
+                </div>
+
+                <div class="fonctionnement__item flex">
+                    <div class="fonctionnement__count">2</div>
+                    <div class="fonctionnement__content flex">
+                        <div class="fonctionnement__icon"><i class="fa-solid fa-list"></i></div>
+                        <div class="fonctionnement__text">Composez votre menu</div>
+                    </div>
+                </div>
+
+                <div class="fonctionnement__item flex">
+                    <div class="fonctionnement__count">3</div>
+                    <div class="fonctionnement__content flex">
+                        <div class="fonctionnement__icon"><i class="fa-solid fa-store"></i></div>
+                        <div class="fonctionnement__text">Dégustez au restaurant</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="restaurants padding">
+            <h2>Restaurants</h2>
+        </div>
+    </section>
 </body>
 
 </html>
