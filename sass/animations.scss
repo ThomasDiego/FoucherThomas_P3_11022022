@@ -1,3 +1,13 @@
+@keyframes loader {
+    from {
+        background-color: rgb(46, 46, 46);
+    }
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
 @keyframes like {
     0% {
         color: white;
