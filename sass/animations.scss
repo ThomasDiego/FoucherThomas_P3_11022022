@@ -1,0 +1,21 @@
+@keyframes like {
+    0% {
+        color: white;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2px;
+    }
+    50% {
+        opacity: 0.1;
+        background: linear-gradient(#ae7aeb, #ec8fd2);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-stroke-width: 0;
+    }
+    100% {
+        opacity: 1;
+        background: linear-gradient(#ae7aeb, #ec8fd2);
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-stroke-width: 0;
+    }
+}

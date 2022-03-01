@@ -164,7 +164,13 @@ nav .nav__title {
   padding-right: 20px;
 }
 .restaurants__list .restaurant .restaurant__desc .restaurant__like i {
+  color: white;
   font-size: 30px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.restaurants__list .restaurant .restaurant__desc .restaurant__like i:hover {
+  animation: like 1s linear forwards;
 }
 
 .footer {
@@ -183,6 +189,28 @@ nav .nav__title {
 .footer .footer__links a i {
   margin-right: 10px;
   width: 15px;
+}
+
+@keyframes like {
+  0% {
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  50% {
+    opacity: 0.1;
+    background: linear-gradient(#ae7aeb, #ec8fd2);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 0;
+  }
+  100% {
+    opacity: 1;
+    background: linear-gradient(#ae7aeb, #ec8fd2);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
