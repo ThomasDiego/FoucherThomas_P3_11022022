@@ -69,6 +69,8 @@ body {
     .loader__logo {
         filter: invert(1);
         align-self: center;
+        flex-direction: column;
+        place-items: center;
     }
 }
 // Debut du css pour les éléments

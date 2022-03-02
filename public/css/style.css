@@ -75,6 +75,8 @@ body {
 .loader .loader__logo {
   filter: invert(1);
   align-self: center;
+  flex-direction: column;
+  place-items: center;
 }
 
 nav {
