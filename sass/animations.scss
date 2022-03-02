@@ -1,6 +1,7 @@
 @keyframes loader {
     from {
         background-color: rgb(46, 46, 46);
+        overflow: hidden;
     }
     to {
         width: 0;

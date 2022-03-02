@@ -63,7 +63,7 @@ body {
     position: fixed;
     background-color: rgb(27, 27, 27);
     z-index: 99999;
-    animation: loader 2s step-end forwards;
+    animation: loader 3s step-end forwards;
     display: flex;
     justify-content: center;
     .loader__logo {

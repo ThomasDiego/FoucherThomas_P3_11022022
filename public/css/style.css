@@ -68,7 +68,7 @@ body {
   position: fixed;
   background-color: #1b1b1b;
   z-index: 99999;
-  animation: loader 2s step-end forwards;
+  animation: loader 3s step-end forwards;
   display: flex;
   justify-content: center;
 }
@@ -217,6 +217,7 @@ nav .nav__title {
 @keyframes loader {
   from {
     background-color: #2e2e2e;
+    overflow: hidden;
   }
   to {
     width: 0;
