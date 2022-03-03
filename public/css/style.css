@@ -259,7 +259,7 @@ nav .nav__title {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(720deg);
+    transform: rotate(360deg);
   }
 }
 .top__img {
@@ -283,6 +283,15 @@ nav .nav__title {
   place-content: space-between;
   align-items: center;
 }
+.lemenu .lemenu__top h2 {
+  font-family: "Shrikhand", cursive;
+}
+
+.fix-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
 
 .menu .menu__title {
   border-bottom: 4px solid #99e2d0;
@@ -302,9 +311,13 @@ nav .nav__title {
 .menu__item .flexgroup .menu__item__name {
   padding: 10px 10px 0px 10px;
   font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu__item .flexgroup .menu__item__desc {
   padding: 10px 10px 10px 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu__item .flexgroup .menu__item__price {
   padding: 0px 20px 0px 20px;

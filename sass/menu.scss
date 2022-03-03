@@ -18,7 +18,16 @@
     .lemenu__top {
         place-content: space-between;
         align-items: center;
+        h2 {
+            font-family: "Shrikhand", cursive;
+        }
     }
+}
+
+.fix-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .menu {
@@ -40,9 +49,13 @@
         .menu__item__name {
             padding: 10px 10px 0px 10px;
             font-weight: bold;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
         .menu__item__desc {
             padding: 10px 10px 10px 10px;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
         .menu__item__price {
             padding: 0px 20px 0px 20px;
