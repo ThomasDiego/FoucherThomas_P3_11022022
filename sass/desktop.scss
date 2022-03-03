@@ -1,0 +1,25 @@
+@media (min-width: 940px) {
+    .fonctionnement__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .restaurants__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .menu_list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__logo {
+        text-align: center;
+    }
+    .footer__links {
+        text-align: center;
+    }
+    .menu {
+        width: 30%;
+    }
+}
