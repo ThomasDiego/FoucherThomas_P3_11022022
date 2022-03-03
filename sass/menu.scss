@@ -58,6 +58,8 @@
     overflow: hidden;
     place-content: space-between;
     margin-bottom: 15px;
+    opacity: 0;
+    animation: menumove 0.5s linear forwards;
     .flexgroup {
         .menu__item__name {
             padding: 10px 10px 0px 10px;
