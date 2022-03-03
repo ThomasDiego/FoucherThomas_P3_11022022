@@ -1,3 +1,4 @@
+@import "variables";
 @keyframes loader {
     from {
         background-color: rgb(46, 46, 46);
@@ -10,23 +11,36 @@
     }
 }
 @keyframes like {
-    0% {
-        color: white;
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 2px;
-    }
-    50% {
-        opacity: 0.1;
+    from {
+        opacity: 0;
         background: linear-gradient(#ae7aeb, #ec8fd2);
         -webkit-background-clip: text;
         color: transparent;
         -webkit-text-stroke-width: 0;
     }
-    100% {
+    to {
         opacity: 1;
         background: linear-gradient(#ae7aeb, #ec8fd2);
         -webkit-background-clip: text;
         color: transparent;
         -webkit-text-stroke-width: 0;
+    }
+}
+
+@keyframes check {
+    0% {
+        margin-right: -70px;
+    }
+    100% {
+        margin-right: 0px;
+    }
+}
+
+@keyframes checkrotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(720deg);
     }
 }

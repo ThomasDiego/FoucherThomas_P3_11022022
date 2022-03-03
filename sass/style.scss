@@ -1,7 +1,4 @@
-$primary: #9356dc;
-$secondary: #ff79da;
-$tertiary: #99e2d0;
-
+@import "variables";
 body {
     margin: 0px;
     font-family: "Roboto", sans-serif;
@@ -30,8 +27,8 @@ body {
     padding-bottom: 15px;
 }
 .padding {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -63,7 +60,7 @@ body {
     position: fixed;
     background-color: rgb(27, 27, 27);
     z-index: 99999;
-    animation: loader 3s step-end forwards;
+    animation: loader 2s step-end forwards;
     display: flex;
     justify-content: center;
     .loader__logo {
@@ -180,22 +177,23 @@ nav {
                     padding: 5px;
                 }
             }
-            .restaurant__like {
-                align-self: center;
-                padding-left: 20px;
-                padding-right: 20px;
-                i {
-                    color: white;
-                    font-size: 30px;
-                    -webkit-text-stroke-color: black;
-                    -webkit-text-stroke-width: 2px;
-                }
-                i:hover {
-                    animation: like 1s linear forwards;
-                }
-            }
         }
     }
+}
+
+.heartLike {
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-heart {
+    color: transparent;
+    font-size: 30px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+.fa-heart:hover {
+    animation: like 1s linear forwards;
 }
 
 .footer {
