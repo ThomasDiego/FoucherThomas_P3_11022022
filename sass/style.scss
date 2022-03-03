@@ -9,6 +9,12 @@ body {
 .position-relative {
     position: relative;
 }
+.content-center {
+    place-content: center;
+}
+.position-absolute {
+    position: absolute;
+}
 .flex-row {
     flex-direction: row;
 }
