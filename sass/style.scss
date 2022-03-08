@@ -78,14 +78,25 @@ body {
     position: fixed;
     background-color: rgb(27, 27, 27);
     z-index: 99999;
-    animation: loader 1s step-end forwards;
+    animation: loader 2.5s step-end forwards;
     display: flex;
     justify-content: center;
-    .loader__logo {
-        filter: invert(1);
+    .loader__ohmyfood {
+        color: white;
+        font-family: Shrikhand;
         align-self: center;
-        flex-direction: column;
-        place-items: center;
+        font-size: 45px;
+        transform: rotateX(0deg);
+        animation: spin1 0.5s linear forwards;
+    }
+    .loader__bienvenue {
+        color: white;
+        font-family: Shrikhand;
+        align-self: center;
+        font-size: 45px;
+        position: absolute;
+        transform: rotateX(90deg);
+        animation: spin2 1.5s linear 0.5s forwards;
     }
 }
 // Debut du css pour les éléments
