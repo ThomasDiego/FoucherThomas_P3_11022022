@@ -3,6 +3,10 @@ body {
     margin: 0px;
     font-family: "Roboto", sans-serif;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .flex {
     display: flex;
 }
@@ -63,9 +67,14 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: inherit;
     font-family: "Roboto";
+    width: fit-content;
 }
 .btn-extend {
     padding: 15px 35px 15px 35px;
+}
+.btn__index {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .btn:hover {
     background-color: $secondary;
@@ -114,6 +123,7 @@ nav {
 .localisation {
     background-color: #eaeaea;
     font-weight: bold;
+    margin: 0;
     .localisation__icon {
         margin-right: 10px;
     }
@@ -157,6 +167,14 @@ nav {
         .fonctionnement__text {
             font-weight: bold;
             align-self: center;
+        }
+    }
+}
+.fonctionnement__item:hover {
+    background-color: #ebddf8;
+    .fonctionnement__content {
+        .fonctionnement__icon {
+            color: $primary;
         }
     }
 }
@@ -235,8 +253,6 @@ nav {
     }
     .footer__links {
         a {
-            text-decoration: none;
-            color: inherit;
             margin-bottom: 10px;
             i {
                 margin-right: 10px;
